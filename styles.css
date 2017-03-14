@@ -1,0 +1,120 @@
+.cover{
+	height: 160vh;
+}
+
+.bar {
+height: 10vh;
+width: 100vw;
+background-color:#F2FDF7 ;
+background-size: 100vw 110vh;
+background-repeat: no-repeat;
+margin-left: -10px;
+margin-top: -21px;
+
+
+
+}
+.align {
+	margin-left: 10px;
+	width: 30vw;
+	margin-top: 25px;
+	display: flex;
+  float: left;
+	justify-content: center;
+	font-family: 'Baloo', cursive;
+	color: #1B612F;
+
+}
+.heading {
+	height: 40vh;
+	width: 100vw;
+	background-image: url(http://www.surrey.ac.uk/sites/default/files/ces_caroussel_0.jpg);
+	background-repeat: no-repeat;
+	background-size: 100vw 45vh;
+
+	margin-left: -10px;
+	margin-top: -21px;
+}
+.filling {
+	height: 25vh;
+	width: 100vw;
+	margin-left: -10px;
+
+}
+.set {
+	height: 60vh;
+	width: 66vw;
+	margin-left: 15vw;
+	background-color: white;
+}
+.box {
+	height: 60vh;
+	width: 20vw;
+	float: left;
+	border-style: solid;
+	border-color: black;
+	margin-left: 15px;
+	border-radius: 25px 25px 25px 25px;
+	background-color: #5BB844;
+}
+.info	{
+	height: 58vh;
+	width: 235px;
+	border-style: solid;
+	border-color: black;
+	float: left;
+	margin-left: 30px;
+	margin-top: 28px;
+	background-color: white;;
+	border-radius: 25px 25px 25px 25px;
+}
+.leaf {
+	height: 100px;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	margin-left: 50px;
+	background-image: url(http://dspncdn.com/a1/media/692x/13/dc/c0/13dcc03763021d8415535eb7a9b55c86.jpg);
+	background-size: cover;
+}
+.ball {
+	display: block;
+	background: black;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	margin 0;
+  background-image: url(http://www.cae.com/uploadedImages/Image_Slideshows/Corporate/About_CAE/Corporate_Social_Responsibility/environment.jpg?n=7901);
+	background: radial-gradient(circle at 33px 33px, #058818, #000);
+}
+.stage {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin: 5px;
+	perspective: 400px;
+	perspective-origin: 50% 50%;
+}
+
+.ball {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 50%;
+  position: relative;
+  background: radial-gradient(circle at 50% 120%, #76e260, #7ae94c  10%, #26c736 80%, #17ba0e 100%);
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Clouds_over_the_Atlantic_Ocean.jpg/1200px-Clouds_over_the_Atlantic_Ocean.jpg);
+}
+.ball:before {
+  content: "";
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+  filter: blur(2px);
+  z-index: 2;
+}
