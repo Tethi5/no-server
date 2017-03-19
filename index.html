@@ -1,54 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
-	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Baloo|Merriweather|Oswald|Playfair+Display|Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="./finalStyle.css">
 </head>
 
-<body>
-	<div class="cover">
-
+<body ng-controller="homeCtrl">
+	<main>
 		<div class="bar">
-			<span class="align">Home</span>
-			<span class="align">About</span>
-			<span class="align">Contact</span>
+			<span class="align"><span class="point" ui-sref="info">Info</span></span>
+			<span class="align"><span class="point" ui-sref="home">Home</span></span>
+			<span class="align"><span class="point" ui-sref="contact">Contact</span></span>
 		</div>
-		<div class="heading">
-			<h1>
-		<section class="stage">
-	<figure class="ball"><span class="shadow"></span></figure>
-	</section>
-</h1>
-		</div>
-		<div class="filling"></div>
-		<div class="set">
-			<span class="box">
-		<span class="info">
-			<ul class="leaf"></ul>
-		</span>
-			</span>
-			<span class="box">
-		<span class="info">
-			<ul class="leaf"></ul>
-		</span>
-			</span>
-			<span class="box">
-		<span class="info">
-			<ul class="leaf"></ul>
-		</span>
-			</span>
-		</div>
+		{{data}}
 
-	</div>
+
+
+		<ui-view></ui-view>
+
+
+	</main>
+
+	<script
+  src="https://code.jquery.com/jquery-3.2.0.js"
+  integrity="sha256-wPFJNIFlVY49B+CuAIrDr932XSb6Jk3J1M22M3E2ylQ="
+  crossorigin="anonymous"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
 	<script src="./app.js"></script>
+	<script src="./service/myService.js"></script>
+	<script src="./Ctrl/homeCtrl.js"></script>
+	<script src="./Ctrl/infoCtrl.js"></script>
+<script src="./Directive/homeDir.js"></script>
+<script src="./Directive/infoDir.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.js"></script>
+
 </body>
 
 </html>
