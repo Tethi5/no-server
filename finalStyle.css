@@ -1,0 +1,334 @@
+.c-test {
+  height: 100px;
+  width: 100vw;
+
+}
+.c-test1 {
+  height:430px;
+	width: 450px;
+  margin-left: 410px;
+  border-style: solid;
+border-radius: 25px 25px 25px 25px;
+border-color: grey;
+}
+.contacts {
+  height: 200px;
+  width: 200px;
+  margin-left: 15px;
+  float: left;
+
+}
+.contacts:hover {
+  opacity: .5;
+}
+.tree {
+  background-image: url(http://www.greencraftwicca.org/fotografie/shop6.jpg);
+  background-size: 200px 200px;
+}
+.nasa {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/US-NASA-Seal-EO10849.jpg/200px-US-NASA-Seal-EO10849.jpg);
+  background-size: 200px 170px;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+.times {
+  background-image: url(http://chinesetheatreworks.org/wp-content/uploads/2016/07/nyticon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.change {
+
+  background-image: url(http://statics.bendbulletin.com/images/bulletin_md_logo.png);
+  background-size: 100px 50px;
+
+}
+
+  .title {
+    height: 50px;
+    width: 200px;
+    font-family: 'Raleway', bold;
+    font-size: 369%;
+    color: #0F3100;
+    margin-left: 426px;
+    padding-top: 81px;
+
+
+  }
+
+.i-header {
+  margin-top: -10px;
+  height: 431px;
+  width: 650px;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-left: 355px; }
+
+.i-align {
+  height: 350px;
+  width: 570px;
+  background-color: white;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 25px 25px 25px 25px; }
+
+.chart {
+  border-radius: 25px 25px 25px 25px; }
+
+.add {
+  height: 20px;
+  width: 20px;
+  background-color: #0F3100 ;
+  cursor: pointer;
+  border-style: solid;
+  border-radius: 25px 25px 25px 25px;
+
+
+}
+.i-para {
+  height: 185px;
+  width: 400px;
+  margin-left: 470px;
+  font-family: 'Raleway', bold;
+}
+.i-words {
+  height: 20px;
+  width: 386px;
+  font-family: 'Raleway', bold;
+  margin-left: 468px;
+  margin-top: 5px;
+
+}
+.list {
+  margin-left: 435px;
+  font-family: 'Raleway' bold;
+  display: none;
+}
+.cover {
+  height: 200vh; }
+
+.bar {
+  height: 10vh;
+  width: 100vw;
+  /*background-color:#F2FDF7 ;*/
+  background-size: 100vw 110vh;
+  background-repeat: no-repeat;
+  margin-left: -10px;
+  margin-top: -10px;
+  display: flex;
+  position: fixed; }
+
+.point:hover {
+  cursor: pointer;
+  color: #0b5a6f; }
+
+.bar .align {
+  margin-left: 30px;
+  width: 30vw;
+  margin-top: 25px;
+  display: flex;
+  float: left;
+  justify-content: center;
+  font-family: 'Raleway', cursive;
+  color: #0F3100;
+  font-size: 120%;
+  border-radius: 25px 25px 25px 25px; }
+
+.heading {
+  height: 70vh;
+  width: 100vw;
+  background-image: url(http://wallpapershome.com/images/pages/pic_h/181.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 70vh;
+  margin-left: -10px;
+  margin-top: -30px; }
+
+.filling {
+  height: 150px;
+  width: 100vw;
+  margin-left: -10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 80px; }
+
+.banner {
+  position: absolute;
+  display: block;
+  width: 400px;
+  height: 60px;
+  text-align: center;
+  background-color: #0F3100;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15) inset, 0 6px 10px rgba(0, 0, 0, 0.15);
+  font-family: 'Oswald', cursive; }
+
+.banner::before,
+.banner::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: -70px;
+  top: 24px;
+  display: block;
+  width: 40px;
+  height: 0px;
+  border: 30px solid #748192;
+  border-right: 20px solid #748192;
+  border-bottom-color: #0F3100;
+  border-left-color: transparent;
+  transform: rotate(-5deg); }
+
+.banner::after {
+  left: auto;
+  right: -70px;
+  border-left: 20px solid #748192;
+  border-right: 30px solid transparent;
+  transform: rotate(5deg); }
+.righty {
+  margin-left: 8px;
+}
+.words {
+  font-family: 'Raleway', sans-serif;
+  height: 50px;
+  width: 430px;
+  text-align: center;
+  margin-left: 415px;
+  margin-top: 0px; }
+
+.para {
+  font-family: 'Playfair+Display', cursive;
+  height: 500px;
+  width: 650px;
+  margin-left: 317px;
+  text-align: center;
+}
+
+.dash {
+  height: 100px;
+  width: 100px;
+  border-right-style: solid;
+  border-color: grey;
+  margin-top: 20px;
+  margin-right: 10px; }
+
+.set {
+  height: 530px;
+  width: 1245px;
+  margin-top: 50px;
+  background-color: black;
+  margin-bottom: 7px;
+}
+.viewport {
+  height: 300px;
+  width: 400px;
+  border-radius: 25px 25px 25px 25px;
+  margin-left: 380px;
+  padding-top: 15px; }
+
+/*.video { max-width: 560px; width: 100%; *width: 560px; height: 315px; }
+@media print { .yt560x315 { display: none; } }
+@media screen and (max-width:600px) {
+.video { clear: both; max-width: 448px; width: 100%; width: *448px; height: 252px; }
+}
+@media screen and (max-width: 480px){
+.video { clear: both; max-width: 336px; width: 100%; width: *336px; max-height: 189px; height: 100%; *height: 189px; }
+}
+@media screen and (max-width: 350px) {
+.video { clear: both; max-width: 280px; width: 100%; width: *280px; max-height: 158px; height: 100%; *height: 158px; }
+}
+@media screen and (max-width: 240px) {
+.video { clear: both; max-width: 224px; width: 100%; width: *224px; max-height: 126px; height: 100%; *height: 126px; }
+}*/
+.video {
+  display: flex;
+  justify-content: flex-end; }
+
+.info {
+  height: 58vh;
+  width: 235px;
+  border-style: solid;
+  border-color: black;
+  float: left;
+  margin-left: 30px;
+  margin-top: 28px;
+  background-color: white;
+  border-radius: 25px 25px 25px 25px; }
+.stage {
+  height: 100px;
+}
+.ball {
+  display: block;
+  background: black;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  background: radial-gradient(circle at 33px 33px, #2dc2e3, #000);
+  opacity: .7; }
+
+.ball:before {
+  content: "";
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+  filter: blur(2px);
+  z-index: 2; }
+
+/*break*/
+.ball1 {
+  display: block;
+  background: black;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  background: radial-gradient(circle at 33px 33px, #2dc2e3, #000);
+  opacity: .7; }
+
+.ball1:before {
+  content: "";
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+  filter: blur(2px);
+  z-index: 2; }
+
+/*break*/
+.ball2 {
+  display: block;
+  background: black;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  background: radial-gradient(circle at 33px 33px, #2dc2e3, #000);
+  opacity: .7; }
+
+.ball2:before {
+  content: "";
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+  filter: blur(2px);
+  z-index: 2; }
+
+  @media screen and (max-width: 500px) {
+    .c-test1 {
+      margin-left: 36vw;
+    }
+  }
