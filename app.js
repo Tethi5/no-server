@@ -3,8 +3,8 @@ angular.module('myApp',['ui.router'])
 		$stateProvider
 		.state ('home', {
 			url:'/',
-			templateUrl:"../view/home.html",
-			controller: 'homeCtrl'
+			templateUrl:"../view/home.html"
+
 		})
 		.state ('info', {
 			url:'/info',

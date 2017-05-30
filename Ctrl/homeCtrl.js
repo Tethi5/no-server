@@ -1,12 +1,4 @@
-angular.module('myApp').controller('homeCtrl', function($scope, myService){
-
-
-
-
-
-
-})
-
+=
 
 
 // 	$scope.test = function (){
